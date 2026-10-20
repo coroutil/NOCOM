@@ -171,7 +171,6 @@
   <!-- ALL translation units — missing any of these causes LNK2001 -->
   <ItemGroup>
     <ClCompile Include="src\main.cpp" />
-    <ClCompile Include="src\drm.cpp" />
     <ClCompile Include="src\game.cpp" />
     <ClCompile Include="src\settings.cpp" />
     <ClCompile Include="src\config.cpp" />
@@ -185,7 +184,6 @@
     <ClCompile Include="src\discord.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\drm.h" />
     <ClInclude Include="src\sdk.h" />
     <ClInclude Include="src\netvar.h" />
     <ClInclude Include="src\discord.h" />
