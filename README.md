@@ -33,5 +33,11 @@
   <img src="assets/4.png" alt="Customize your Synergy like never before!" width="900">
 
   <p><i>Customize your Synergy like never before!</i></p>
+  
+  ---
+
+  <img src="assets/4.png" alt="You own NOCOM." width="900">
+
+  <p><i>You own NOCOM.</i></p>
 
 </div>
