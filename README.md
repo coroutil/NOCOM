@@ -36,7 +36,7 @@
   - [ ] Override Glow color
   
 - **Utilities**
-  - sv_pure Bypass
+  - [ ] sv_pure Bypass
 
 ---
 
