@@ -30,7 +30,7 @@
   
   ---
 
-  <img src="assets/2.png" alt="Customize your Synergy like never before!" width="900">
+  <img src="assets/4.png" alt="Customize your Synergy like never before!" width="900">
 
   <p><i>Customize your Synergy like never before!</i></p>
 
