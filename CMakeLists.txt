@@ -3,7 +3,6 @@ project(NOCOM LANGUAGES CXX)
 
 add_library(NOCOM SHARED
     src/main.cpp
-    src/drm.cpp
     src/game.cpp
     src/settings.cpp
     src/config.cpp

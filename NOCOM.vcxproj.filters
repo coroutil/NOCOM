@@ -10,7 +10,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\main.cpp"><Filter>Source</Filter></ClCompile>
-    <ClCompile Include="src\drm.cpp"><Filter>Source</Filter></ClCompile>
     <ClCompile Include="src\game.cpp"><Filter>Source</Filter></ClCompile>
     <ClCompile Include="src\settings.cpp"><Filter>Source</Filter></ClCompile>
     <ClCompile Include="src\config.cpp"><Filter>Source</Filter></ClCompile>
@@ -24,7 +23,6 @@
     <ClCompile Include="src\discord.cpp"><Filter>Source</Filter></ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\drm.h"><Filter>Headers</Filter></ClInclude>
     <ClInclude Include="src\sdk.h"><Filter>Headers</Filter></ClInclude>
     <ClInclude Include="src\netvar.h"><Filter>Headers</Filter></ClInclude>
     <ClInclude Include="src\discord.h"><Filter>Headers</Filter></ClInclude>

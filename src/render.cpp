@@ -695,7 +695,7 @@ static bool convertWatermarkBitmapFrameToRgba(Gdiplus::Bitmap* bmp, int decodedW
 
     rgba.assign(static_cast<size_t>(decodedWidth) * decodedHeight * 4, 0);
     Gdiplus::BitmapData bd{};
-    Gdiplus::rect rc(0, 0, decodedWidth, decodedHeight);
+    Gdiplus::Rect rc(0, 0, decodedWidth, decodedHeight);
     if (scaled.LockBits(&rc, Gdiplus::ImageLockModeRead, PixelFormat32bppARGB, &bd) != Gdiplus::Ok)
         return false;
 

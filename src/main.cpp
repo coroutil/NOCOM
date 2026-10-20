@@ -2,7 +2,6 @@
 #define _CRT_SECURE_NO_WARNINGS
 #endif
 #include "sdk.h"
-#include "drm.h"
 #include "netvar.h"
 #include "discord.h"
 #include "settings.h"
@@ -1718,9 +1717,12 @@ static void paintBody(unsigned panel) {
             g_CleaningUp = true;
             g_HooksReady = false;
             g_MenuOpen = false;
-            HANDLE ejectThread = CreateThread(nullptr, 0, ejectThread, nullptr, 0, nullptr);
-            if (ejectThread) CloseHandle(ejectThread);
-            else logEx(LOG_ERROR, "CreateThread(EjectThread) failed err=%lu", GetLastError());
+            HANDLE ejectHandle = CreateThread(nullptr, 0, ejectThread, nullptr, 0, nullptr);
+
+            if (ejectHandle)
+                CloseHandle(ejectHandle);
+            else
+                logEx(LOG_ERROR, "CreateThread(EjectThread) failed err=%lu", GetLastError());
         }
     }
 }
