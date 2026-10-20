@@ -16,7 +16,7 @@
 
   <p><i>Player highlighting, skeleton overlays, and configurable gameplay options</i></p>
   
-  <br>
+  ---
 
   <img src="assets/3.png" alt="yabadabada" width="900">
 
@@ -27,5 +27,11 @@
   <img src="assets/2.png" alt="Get your best record today!" width="900">
 
   <p><i>Get your best record today!</i></p>
+  
+  ---
+
+  <img src="assets/2.png" alt="Customize your Synergy like never before!" width="900">
+
+  <p><i>Customize your Synergy like never before!</i></p>
 
 </div>
