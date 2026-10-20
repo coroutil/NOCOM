@@ -36,7 +36,7 @@
   
   ---
 
-  <img src="assets/4.png" alt="You own NOCOM." width="900">
+  <img src="assets/5.png" alt="You own NOCOM." width="900">
 
   <p><i>You own NOCOM.</i></p>
 
