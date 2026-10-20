@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{a1111111-1111-1111-1111-111111111111}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{a2222222-2222-2222-2222-222222222222}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp"><Filter>Source</Filter></ClCompile>
+    <ClCompile Include="src\drm.cpp"><Filter>Source</Filter></ClCompile>
+    <ClCompile Include="src\game.cpp"><Filter>Source</Filter></ClCompile>
+    <ClCompile Include="src\settings.cpp"><Filter>Source</Filter></ClCompile>
+    <ClCompile Include="src\config.cpp"><Filter>Source</Filter></ClCompile>
+    <ClCompile Include="src\render.cpp"><Filter>Source</Filter></ClCompile>
+    <ClCompile Include="src\menu.cpp"><Filter>Source</Filter></ClCompile>
+    <ClCompile Include="src\features.cpp"><Filter>Source</Filter></ClCompile>
+    <ClCompile Include="src\esp.cpp"><Filter>Source</Filter></ClCompile>
+    <ClCompile Include="src\combat_feedback.cpp"><Filter>Source</Filter></ClCompile>
+    <ClCompile Include="src\entity_names.cpp"><Filter>Source</Filter></ClCompile>
+    <ClCompile Include="src\netvar.cpp"><Filter>Source</Filter></ClCompile>
+    <ClCompile Include="src\discord.cpp"><Filter>Source</Filter></ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\drm.h"><Filter>Headers</Filter></ClInclude>
+    <ClInclude Include="src\sdk.h"><Filter>Headers</Filter></ClInclude>
+    <ClInclude Include="src\netvar.h"><Filter>Headers</Filter></ClInclude>
+    <ClInclude Include="src\discord.h"><Filter>Headers</Filter></ClInclude>
+    <ClInclude Include="src\settings.h"><Filter>Headers</Filter></ClInclude>
+    <ClInclude Include="src\game.h"><Filter>Headers</Filter></ClInclude>
+    <ClInclude Include="src\config.h"><Filter>Headers</Filter></ClInclude>
+    <ClInclude Include="src\render.h"><Filter>Headers</Filter></ClInclude>
+    <ClInclude Include="src\menu.h"><Filter>Headers</Filter></ClInclude>
+    <ClInclude Include="src\features.h"><Filter>Headers</Filter></ClInclude>
+    <ClInclude Include="src\combat_feedback.h"><Filter>Headers</Filter></ClInclude>
+    <ClInclude Include="src\entity_names.h"><Filter>Headers</Filter></ClInclude>
+    <ClInclude Include="src\hooking.h"><Filter>Headers</Filter></ClInclude>
+  </ItemGroup>
+</Project>
