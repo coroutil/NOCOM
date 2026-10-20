@@ -21,5 +21,11 @@
   <img src="assets/3.png" alt="yabadabada" width="900">
 
   <p><i>yabadabada</i></p>
+  
+  ---
+
+  <img src="assets/2.png" alt="Get your best record today!" width="900">
+
+  <p><i>Get your best record today!</i></p>
 
 </div>
