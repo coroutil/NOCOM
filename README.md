@@ -8,7 +8,7 @@
 
 </div>
 
-### <p align="center">Changes in this version</p>
+### <p align="center">Features</p>
 
 - **Utilities**
   - Aim
@@ -28,6 +28,15 @@
   
 - **Visual**
   - can someone do this for me ok thanks
+  
+### <p align="center">TODO</p>
+
+- **Visuals**
+  - [ ] Custom skyboxes
+  - [ ] Override Glow color
+  
+- **Utilities**
+  - sv_pure Bypass
 
 ---
 
