@@ -27,7 +27,6 @@
     <ProjectName>NOCOM</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
-  <!-- Visual Studio 2026 Community: v145. Falls back if only older toolsets installed. -->
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
@@ -168,7 +167,6 @@
       <AdditionalDependencies>user32.lib;gdiplus.lib;comdlg32.lib;winmm.lib;dbghelp.lib;winhttp.lib;bcrypt.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
-  <!-- ALL translation units — missing any of these causes LNK2001 -->
   <ItemGroup>
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\game.cpp" />
